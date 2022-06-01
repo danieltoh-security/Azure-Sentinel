@@ -1546,7 +1546,7 @@
         "title": "Cisco Firepower",
         "templateRelativePath": "CiscoFirepower.json",
         "subtitle": "",
-        "provider": "Azure Sentinel Community"
+        "provider": "Microsoft Sentinel Community"
       },
       {
         "workbookKey": "MicrorosftTeams",
@@ -1559,7 +1559,7 @@
         "title": "Microsoft Teams",
         "templateRelativePath": "MicrosoftTeams.json",
         "subtitle": "",
-        "provider": "Azure Sentinel Community"
+        "provider": "Microsoft Sentinel Community"
       },
       {
         "workbookKey": "ArchivingBasicLogsRetention",
@@ -1577,13 +1577,26 @@
       {
         "workbookKey": "MicrosoftDefenderForEndPoint",
         "logoFileName": "",
-        "description": "A wokbook to provide details about Microsoft Defender for Endpoint Advance Hunting to Overview & Analyse data brought through M365 Defender Connector.",
+        "description": "A workbook to provide details about Microsoft Defender for Endpoint Advance Hunting to Overview & Analyse data brought through M365 Defender Connector.",
         "dataTypesDependencies": [],
         "dataConnectorsDependencies": [],
         "previewImagesFileNames": [ "microsoftdefenderforendpointwhite.png", "microsoftdefenderforendpointblack.png" ],
         "version": "1.0.0",
         "title": "MicrosoftDefenderForEndPoint",
         "templateRelativePath": "MicrosoftDefenderForEndPoint.json",
+        "subtitle": "",
+        "provider": "Microsoft Sentinel Community"
+      },
+    {
+        "workbookKey": "MicrosoftSentinelDeploymentandMigrationTracker",
+        "logoFileName": "",
+        "description": "A workbook to provide a central hub for defining, tracking, and completing key Microsoft Sentinel deployment and migration tasks. Use this workbook to monitor and configure key areas of Microsoft Sentinel such as data colleciton, analytics, workbooks, automation, and more.",
+        "dataTypesDependencies": [],
+        "dataConnectorsDependencies": [],
+        "previewImagesFileNames": [ "microsoftsentienldeploymentandmigration-white.png", "microsoftsentienldeploymentandmigration-black.png" ],
+        "version": "1.0.0",
+        "title": "Microsoft Sentinel Deployment and Migration Tracker",
+        "templateRelativePath": "MicrosoftSentinelDeploymentandMigrationTracker.json",
         "subtitle": "",
         "provider": "Microsoft Sentinel Community"
       }
